@@ -1,7 +1,8 @@
+---
 name: feedback-analyze
 description: >-
-  Conduct a comprehensive and practical code review regarding feedback, ideas, and improvements.
-Utilized when a user requests an evaluation of feedback, ideas, or improvements for the product.
+  Evaluate product feedback, ideas, and improvement requests. Use when the user
+  asks whether to act on feedback or how to respond to it.
 ---
 # Team Code Review Runbook
 
