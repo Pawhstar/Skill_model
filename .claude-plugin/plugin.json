@@ -2,5 +2,8 @@
   "name": "skill-model",
   "version": "1.0.0",
   "description": "Standard team AI coding skills, rules, and workflows plugin",
-  "author": "Pawhstar"
+  "author": {
+    "name": "Pawhstar",
+    "url": "https://github.com/Pawhstar"
+  }
 }

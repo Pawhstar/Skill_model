@@ -20,7 +20,7 @@ echo -e "${BLUE}=======================================${NC}"
 
 # 1. Validate JSON manifests
 echo -e "\n${YELLOW}[1/4] Checking JSON manifests...${NC}"
-for json_file in "${ROOT_DIR}/plugin.json" "${ROOT_DIR}/gemini-extension.json" "${ROOT_DIR}/mcp_config.json" "${ROOT_DIR}/.claude-plugin/plugin.json"; do
+for json_file in "${ROOT_DIR}/plugin.json" "${ROOT_DIR}/gemini-extension.json" "${ROOT_DIR}/mcp_config.json" "${ROOT_DIR}/.claude-plugin/plugin.json" "${ROOT_DIR}/.claude-plugin/marketplace.json"; do
   if [ -f "${json_file}" ]; then
     if python3 -m json.tool "${json_file}" >/dev/null 2>&1; then
       echo -e "  ${GREEN}✓${NC} Valid JSON: $(basename "${json_file}")"

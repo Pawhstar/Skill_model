@@ -1,0 +1,18 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "skill-model",
+  "description": "Standard team AI coding skills, rules, and workflows marketplace",
+  "owner": {
+    "name": "Pawhstar",
+    "url": "https://github.com/Pawhstar"
+  },
+  "plugins": [
+    {
+      "name": "skill-model",
+      "description": "Standard team AI coding skills, rules, and workflows plugin",
+      "version": "1.0.0",
+      "source": "./",
+      "category": "productivity"
+    }
+  ]
+}

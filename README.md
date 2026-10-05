@@ -122,6 +122,7 @@ Skill_model/
 ├── scripts/
 │   └── validate.sh             # Lint & integrity checker
 └── .claude-plugin/
+    ├── marketplace.json        # Claude Code marketplace catalog
     └── plugin.json             # Claude Code plugin manifest
 ```
 
