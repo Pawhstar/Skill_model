@@ -1,0 +1,21 @@
+{
+  "name": "skill-model",
+  "interface": {
+    "displayName": "Skill Model"
+  },
+  "plugins": [
+    {
+      "name": "skill-model",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Pawhstar/Skill_model.git",
+        "ref": "main"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}
