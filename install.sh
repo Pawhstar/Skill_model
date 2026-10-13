@@ -83,9 +83,9 @@ install_path() {
 
   if [ -L "${dest}" ]; then
     local current_target
-    current_target="$(readlink -f "${dest}")"
+    current_target="$(readlink -m "${dest}")"
     local expected_target
-    expected_target="$(readlink -f "${src}")"
+    expected_target="$(readlink -m "${src}")"
 
     if [ "${current_target}" = "${expected_target}" ]; then
       echo -e "  ${GREEN}✓${NC} ${name}: already linked correctly."

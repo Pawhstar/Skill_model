@@ -35,6 +35,7 @@ Open your favorite AI coding tool in any project and prompt it naturally:
 ### 1. Pre-Bundled Team Skills (`skills/`)
 | Skill | Directory | Triggers & Description |
 | :--- | :--- | :--- |
+| **Brainstorming** | `skills/brainstorming` | Interactive requirements discovery, spec framing, and optional visual companion before building. |
 | **Code Review** | `skills/code-review` | Thorough review across correctness, security, performance, simplicity, and test coverage. |
 | **Debugging Guide** | `skills/debugging-guide` | 5-step systematic root-cause analysis: reproduce, isolate, hypothesize, fix, and verify. |
 | **Git Workflow** | `skills/git-workflow` | Standard feature branch naming, conventional commits syntax, and PR description template. |
@@ -108,6 +109,11 @@ Skill_model/
 ├── rules/
 │   └── AGENTS.md               # Source of truth for team coding rules
 ├── skills/                     # Packaged skills
+│   ├── brainstorming/
+│   │   ├── SKILL.md
+│   │   ├── builder-check-prompt.md
+│   │   ├── visual-companion.md
+│   │   └── scripts/
 │   ├── code-review/
 │   │   └── SKILL.md
 │   ├── debugging-guide/
